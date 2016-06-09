@@ -10,7 +10,7 @@ struct node
 	struct node* child;
 	struct node* sibling;
 };
-
+//Verificare
 struct node* MAKE_bin_HEAP();
 int bin_LINK(struct node*, struct node*);
 struct node* CREATE_NODE(int);
